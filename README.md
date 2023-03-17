@@ -1,17 +1,14 @@
-# ALICE - A Simple NLP Bot
+# ALICE - Artificial Linguistic Intelligent Chatbot Experiment
 
-ALICE (A Linguistically Intelligent Conversational Entity) is a simple, keyword-based natural language processing bot created using Python and the NLTK library. ALICE can understand and respond to basic greetings and farewells.
+ALICE (Artificial Linguistic Intelligent Chatbot Experiment) is a simple chatbot designed to learn from users' inputs and provide helpful responses. As users interact with ALICE, it gathers knowledge and adapts to provide more accurate and relevant answers.
 
-## Getting Started
+## Version
 
-### Prerequisites
+ALICE V2.4
 
-- Python 3.x
-- NLTK library
+## Features
 
-### Installation
-
-1. Install the NLTK library using pip:
-
-```bash
-pip install nltk
+- Greet users and respond to common greetings.
+- Answer questions using predefined responses from SK.json.
+- Learn from users by asking for clarification when it doesn't understand an input, then store this information in AC.json.
+- Use the knowledge stored in AC.json to respond to user queries.
