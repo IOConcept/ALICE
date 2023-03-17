@@ -1,0 +1,10 @@
+# ALICE Bug Reports and Resolutions
+
+This document tracks the bugs found in the ALICE chatbot and their respective resolutions.
+
+## Bug 1: NameError - name 'os' is not defined
+
+### Description
+
+The following error occurred when attempting to save a new Q&A pair to AC.json:
+
